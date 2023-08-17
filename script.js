@@ -1,11 +1,11 @@
-const bookSection = document.querySelector(".book-container");
-const form = document.querySelector(".form");
-const search = document.querySelector(".search");
+const bookSection = document.querySelector('.book-container');
+const form = document.querySelector('.form');
+const search = document.querySelector('.search');
 
 let collection = [];
 
 const awesomeBooks = () => {
-  bookSection.innerHTML = "";
+  bookSection.innerHTML = '';
   collection.map((book) => {
     bookSection.innerHTML += `
       <div class="highlighted-books">
@@ -22,19 +22,19 @@ const awesomeBooks = () => {
 };
 
 if (localStorage.books) {
-  collection = JSON.parse(localStorage.getItem("books"));
+  collection = JSON.parse(localStorage.getItem('books'));
 }
 
 const setStorage = () => {
-  localStorage.setItem("books", JSON.stringify(collection));
+  localStorage.setItem('books', JSON.stringify(collection));
 };
 
 const addBook = (e) => {
   e.preventDefault();
   const book = {};
   book.id = Math.floor(Math.random() * 10000000);
-  book.title = document.querySelector(".book-title").value;
-  book.author = document.querySelector(".book-author").value;
+  book.title = document.querySelector('.book-title').value;
+  book.author = document.querySelector('.book-author').value;
 
   if (book.title && book.author) {
     collection.push(book);
@@ -42,13 +42,13 @@ const addBook = (e) => {
     awesomeBooks();
   }
 
-  document.querySelector(".book-title").value = "";
-  document.querySelector(".book-author").value = "";
+  document.querySelector('.book-title').value = '';
+  document.querySelector('.book-author').value = '';
 };
 
 awesomeBooks();
 
-form.addEventListener("submit", addBook);
+form.addEventListener('submit', addBook);
 
 const removeBook = (id) => {
   collection = collection.filter((item) => item.id !== id);
@@ -56,4 +56,4 @@ const removeBook = (id) => {
   setStorage();
 };
 
-search.addEventListener("click", removeBook);
+search.addEventListener('click', removeBook);
