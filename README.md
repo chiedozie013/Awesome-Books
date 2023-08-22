@@ -45,7 +45,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://chiedozie013.github.oi/](https://github.com/chiedozie013/Awesome-Books)
+- [https://chiedozie013.github.oi/](https://chiedozie013.github.io/Awesome-Books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
