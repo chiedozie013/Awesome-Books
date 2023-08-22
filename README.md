@@ -3,10 +3,10 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-
-  - [Key Features](#key-features)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -27,6 +27,10 @@
 ## 🛠 Built With <a name="HTML, CSS and JS"></a>
 
 ### Tech Stack <a name="Front end"></a>
+
+- [ ] HTML
+- [ ] CSS
+- [ ] JS
 
 ### Key Features <a name="key-features"></a>
 
