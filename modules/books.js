@@ -1,20 +1,20 @@
 class AwesomeBooks {
   constructor() {
-    this.title = document.querySelector(".book-title");
-    this.author = document.querySelector(".book-author");
-    this.books = "books";
+    this.title = document.querySelector('.book-title');
+    this.author = document.querySelector('.book-author');
+    this.books = 'books';
     this.getStorage = JSON.parse(localStorage.getItem(this.books)) || [];
-    this.bookSection = document.querySelector(".book-container");
-    this.form = document.querySelector(".form");
+    this.bookSection = document.querySelector('.book-container');
+    this.form = document.querySelector('.form');
     this.document = document;
   }
 
   displayBooks() {
-    this.bookSection.innerHTML = "";
+    this.bookSection.innerHTML = '';
     if (this.getStorage.length === 0) {
-      const msg = this.document.createElement("h3");
-      msg.textContent = "No books yet! Add some!";
-      msg.classList.add("display-msg");
+      const msg = this.document.createElement('h3');
+      msg.textContent = 'No books yet! Add some!';
+      msg.classList.add('display-msg');
       this.bookSection.appendChild(msg);
     } else {
       this.getStorage.forEach((book) => {
@@ -49,8 +49,8 @@ class AwesomeBooks {
       this.displayBooks();
     }
 
-    this.title.value = "";
-    this.author.value = "";
+    this.title.value = '';
+    this.author.value = '';
   }
 
   removeBooks(id) {
@@ -60,13 +60,13 @@ class AwesomeBooks {
   }
 
   getBooks() {
-    this.form.addEventListener("submit", () => this.addBooks());
+    this.form.addEventListener('submit', () => this.addBooks());
     this.displayBooks();
   }
 
   deleteBooks() {
-    this.document.addEventListener("click", (e) => {
-      const target = e.target.closest(".remove-book");
+    this.document.addEventListener('click', (e) => {
+      const target = e.target.closest('.remove-book');
       if (!target) return;
       this.removeBooks(target.id);
     });
