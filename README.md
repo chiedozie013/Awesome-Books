@@ -22,9 +22,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [TechTitans Global Summit 2024] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
-**[TechTitans Global Summit 2024 Project]** is an online website for a conference that is to happen in Portharcourt, Nigeria towards the first quarter of 2024 for individuals from various sectors of the technology industry all over the world. This project contains all information about the up coming submit
+**[Awesome Book Project]** is an online website for storing and diplaying book lists using modules and classes
 
 ## 🛠 Built With <a name="HTML, CSS and JS"></a>
 
@@ -34,12 +34,7 @@
 
 - **[it has a mobile and desktop version]**
 - **[It has a header for navigation and logo]**
-- **[it has the headline section with a welcome message, summit name, time and venue of the summit]**
-- **[it has main program section with details of the summit]**
-- **[it has a section for featured speakers with their details]**
-- **[it has a button to join the summit]**
-- **[it has an about page that explain details of the summit]**
-- **[The about page also has a section for partners of the summit]**
+- **[it has the navigation section with a list, Add book and Contact section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +79,7 @@ Install this project with:
 
 # 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/chiedozie013)
 - Twitter: [@twitterhandle](https://twitter.com/edoziey)
@@ -94,8 +89,9 @@ Install this project with:
 
 # 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
-- [ ] **[join page to register]**
+- [ ] **[List Page]**
+- [ ] **[Add book page]**
+- [ ] **[Contact Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
